@@ -888,7 +888,7 @@ bexecute_assembly($1, script_resource('../exe/SharpView.exe'), "Find-LocalAdminA
 sub loudshare{
 bexecute_assembly($1, script_resource('../exe/SharpView.exe'), "Find-LocalAdminAccess -CheckShareAccess");
 }
-v
+
 sub sweetpotato{
 bexecute_assembly($1, script_resource('exe/SweetPotato.exe'));
 }
